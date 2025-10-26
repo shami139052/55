@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+button {
+  padding: 8px 16px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
